@@ -20,16 +20,16 @@ global $webshowcase;
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="<?php if ( ! empty( $webshowcase['blog_favicon'] ) ) {
-		echo $webshowcase['blog_favicon']['url'];
-	} ?>" type="image/x-icon">
+      echo $webshowcase['blog_favicon']['url'];
+  } ?>" type="image/x-icon">
 
-	<?php wp_head(); ?>
+  <?php wp_head(); ?>
 
 </head>
 
 <body <?php body_class( $class ); ?>>
-<header id="header">
-	<div class="container clearfix">
+    <header id="header">
+       <div class="container clearfix">
         <span class="logo"><a href=""><img src="" alt=""></a></span>
         <nav class="main-nav">
             <ul class="main-nav-list">
@@ -40,6 +40,16 @@ global $webshowcase;
                 <li class="main-nav-item"><a class="btn-scroll" href=".contact-us">Contacts</a></li>
             </ul>
         </nav>
+        <ul class="top-nav">
+            <li class="language">
+                <a class="btn-lang" href="#">En</a>
+                <ul class="lang-drop">
+                    <li><a href="#">Uk</a></li>
+                    <li><a href="#">De</a></li>
+                </ul>
+            </li>
+            <li><a class="btn-search" href="#">Search</a></li>
+        </ul>
     </div>
     <a href="#" class="open-menu"><span></span>Open Menu</a>
     <span class="fader"></span>

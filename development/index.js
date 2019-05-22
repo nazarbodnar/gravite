@@ -13,6 +13,11 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
     });
     /*btn-scroll*/
+
+    $('.top-nav .btn-lang').on('click', function(){
+        $(this).parent('li').toggleClass('opened');
+        return false;
+    }); /*dropdown-language*/
 });
 
 $(window).on('scroll', function(){
