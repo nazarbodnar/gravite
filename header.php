@@ -30,7 +30,8 @@ global $webshowcase;
 <body <?php body_class( $class ); ?>>
     <header id="header">
        <div class="container clearfix">
-        <span class="logo"><a href=""><img src="" alt=""></a></span>
+        <div class="flex-box">
+            <span class="logo"><a href=""><img src="" alt=""></a></span>
         <nav class="main-nav">
             <ul class="main-nav-list">
                 <li class="main-nav-item"><a class="btn-scroll" href=".visual">Home</a></li>
@@ -48,8 +49,8 @@ global $webshowcase;
                     <li><a href="#">De</a></li>
                 </ul>
             </li>
-            <li><a class="btn-search" href="#">Search</a></li>
         </ul>
+        </div>
     </div>
     <a href="#" class="open-menu"><span></span>Open Menu</a>
     <span class="fader"></span>

@@ -15,7 +15,17 @@ global $webshowcase;
 get_header(); ?>
 
 <main id="main">
-	content will be here
+	<div class="visual">
+			<div class="container">
+				<div class="cell">
+					<div class="visual-text">
+						<h1>We Are French-Ukrainian Software Development Company</h1>
+						<p>Our talented team of professionals operates under an effective system of internal quality management and communication</p>
+						<a class="project-btn" href="#"><span>Contact Us</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
 </main>
 
 <?php get_footer(); ?>

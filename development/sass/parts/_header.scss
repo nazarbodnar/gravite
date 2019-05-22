@@ -46,7 +46,7 @@
 
 .logo {
   float: left;
-  width: 170px;
+  width: 140px;
   background: url(../images/logo.png) no-repeat 0 0;
   -webkit-background-size: 25px 25px;
   background-size: 25px 25px;
@@ -88,7 +88,7 @@
         -webkit-transition: all .3s;
         -o-transition: all .3s;
         transition: all .3s;
-        padding: 12px 15px;
+        padding: 25px 15px;
         display: block;
         text-decoration: none;
         &:hover {
@@ -110,7 +110,6 @@
   list-style: none;
   font-size: 0;
   line-height: 0;
-  float: right;
   li {
     display: inline-block;
     vertical-align: top;
@@ -293,6 +292,7 @@
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
+  height: 100vh;
   .main-nav-list {
     padding-top: 35px;
     .main-nav-item {
@@ -308,6 +308,10 @@
       }
     }
   }
+}
+
+body.menu-opened {
+  overflow: hidden;
 }
 
 .menu-opened {
