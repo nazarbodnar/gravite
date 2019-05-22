@@ -29,5 +29,18 @@ global $webshowcase;
 
 <body <?php body_class( $class ); ?>>
 <header id="header">
-	header will be here
+	<div class="container clearfix">
+        <span class="logo"><a href=""><img src="" alt=""></a></span>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li class="main-nav-item"><a class="btn-scroll" href=".visual">Home</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".our-service">Services</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".about-us">Processes</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".customers">Team</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".contact-us">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <a href="#" class="open-menu"><span></span>Open Menu</a>
+    <span class="fader"></span>
 </header>

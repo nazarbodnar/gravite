@@ -28,7 +28,7 @@ add_theme_support( 'html5', array(
 function my_assets() {
 
 	// Add Google Fonts
-	wp_enqueue_style( 'comfortaa_font', 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700' );
+	wp_enqueue_style( 'montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap' );
 
 	wp_enqueue_style( 'id-main', get_stylesheet_uri() );
 
