@@ -14,3 +14,50 @@
     }
   }
 }
+
+#footer {
+  position: relative;
+  background: $clr_blue;
+  &:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #3237b9;
+    background: -moz-linear-gradient(left,  #3237b9 0%, #02fc92 100%);
+    background: -webkit-linear-gradient(left,  #3237b9 0%,#02fc92 100%);
+    background: linear-gradient(to right,  #3237b9 0%,#02fc92 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3237b9', endColorstr='#02fc92',GradientType=1 );
+    height: 4px;
+  }
+  .copy {
+    float: left;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .top-nav {
+    .lang-drop {
+      top: auto;
+      bottom: 100%;
+      border-top: 1px solid #fff;
+      border-bottom: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footer {
+    padding: 20px 0;
+    .copy{
+      margin-top: 5px;
+    }
+    .main-nav {
+      display: none !important;
+    }
+    .top-nav {
+      margin: 0;
+    }
+  }
+}

@@ -57,27 +57,53 @@ get_header(); ?>
 			<ul class="how-it-works-list">
 				<li class="how-it-works-item">
 					<div class="img">
-						<img src="" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Icon_1.svg" alt="">
 					</div>
 					<h3>Start Product</h3>
 					<p>High-performing teams need more than the latest tools to do</p>
 				</li>
 				<li class="how-it-works-item">
 					<div class="img">
-						<img src="" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Icon_2-01.svg" alt="">
 					</div>
 					<h3>Support Product</h3>
 					<p>High-performing teams need more than the latest tools to do their best work</p>
 				</li>
 				<li class="how-it-works-item">
 					<div class="img">
-						<img src="" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Icon_3.svg" alt="">
 					</div>
 					<h3>Release Product</h3>
 					<p>High-performing teams need more than the latest tools to do their best work</p>
 				</li>
 
 			</ul>
+		</div>
+	</div>
+	<div class="need-help">
+		<div class="container">
+			<h2>Need Help and Support?</h2>
+			<div class="text-box">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+			<a class="project-btn" href="#"><span>Contact Us</span></a>
+		</div>
+	</div>
+	<div class="contact-us">
+		<div class="container">
+			<h2>Contact Us</h2>
+			<div class="address-box">
+				<strong>Headquarters</strong>
+				<span>France</span>
+				<span>Headquarters Champs Elysées Avenue 25, 1101 EB Paris</span>
+				<span>info@gravite.com</span>
+			</div>
+			<div class="address-box">
+				<strong>Delivery Centers</strong>
+				<span>Ukraine</span>
+				<span>Naukova Street</span>
+				<span>info@gravite.com</span>
+			</div>
 		</div>
 	</div>
 </main>

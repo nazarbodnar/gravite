@@ -26,6 +26,7 @@
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 35px;
+    font-weight: 700;
   }
   p {
     margin: 0 0 45px;
@@ -163,6 +164,9 @@
 
 
 
+
+
+/* how-it-works */
 .how-it-works-list {
   display: flex;
   justify-content: space-between;
@@ -184,16 +188,84 @@
     p {
       letter-spacing: 0;
     }
+    .img {
+      max-width: 100px;
+      margin: 0 auto 20px;
+      img {
+        width: 100%;
+      }
+    }
     &+.how-it-works-item {
-      
+      &:before{
+        height: 92px;
+        width: 30px;
+        background: url(../images/Arrow.svg) no-repeat;
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 15px;
+      }
     }
   }
 }
 
-
-/* how-it-works */
-
 /* end-how-it-works */
+
+
+/* need-help */
+.need-help {
+  padding: 120px 0;
+  background: url(../images/help-us.jpg) no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: 100% 0;
+  h2 {
+    margin-bottom: 38px;
+    color: $clr_white;
+  }
+  .text-box {
+    max-width: 550px;
+    margin: 0 auto 45px;
+    font-size: 20px;
+    line-height: 30px;
+    p{
+      color: $clr_white;
+    }
+    
+  }
+}
+/* end-need-help */
+
+
+
+/* contact-us */
+.contact-us {
+  padding: 150px 0 50px;
+  background: $clr_white;
+  h2{
+    color: $clr_blue;
+    margin-bottom: 70px;
+  }
+  .address-box {
+    margin-bottom: 40px;
+    line-height: 35px;
+    max-width: 350px;
+    strong {
+      font-size: 18px;
+      font-weight: 700;
+      display: block;
+      color: $clr_blue;
+    }
+    span {
+      display: block;
+    }
+    p {
+      color: $clr_gray;
+    }
+  }
+}
+/* end-contact-us */
+
 @media only screen and (max-width: 991px) {
   .visual-text {
     h1 {

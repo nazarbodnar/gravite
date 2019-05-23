@@ -52,12 +52,8 @@
   background-size: 25px 25px;
   margin-top: 13px;
   a {
-    padding: 0px 0 0 35px;
+    padding: 0;
     display: block;
-    color: #19f5e8;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
     font: 14px/25px 'proxima_bold',sans-serif;
     &:hover {
       text-decoration: none;
@@ -73,6 +69,7 @@
 .main-nav {
   overflow: hidden;
   text-align: center;
+  float: right;
   .main-nav-list {
     list-style: none;
     padding: 0;
@@ -105,7 +102,8 @@
 
 
 .top-nav {
-  margin: 0 0 0 34px;
+  margin: 20px 0 0 34px;
+  float: right;
   padding: 0 6px;
   list-style: none;
   font-size: 0;
