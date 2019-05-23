@@ -120,19 +120,24 @@
     margin-left: 23px;
   }
   a {
-    width: 32px;
-    height: 32px;
+    width: 39px;
     display: block;
   }
   .language {
     position: relative;
+    &.opened {
+      .btn-lang {
+        .fa {
+          transform: rotate(90deg);
+        }
+      }
+    }
   }
   .lang-drop {
     position: absolute;
     z-index: 10;
     top: 100%;
-    left: 0;
-    right: 0;
+    left: 5px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -142,46 +147,25 @@
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    background: $clr_blue;
   }
   .opened .lang-drop {
     opacity: 1;
     visibility: visible;
   }
   .lang-drop a {
-    border: solid  #bfd730;
+    border: solid  $clr_white;
     border-width: 0 1px 1px;
     color: #fff;
-    &:hover {
-      background: #bed62f;
-    }
   }
   .btn-lang {
-    border: 1px solid  #bfd730;
     color: #fff;
     text-align: center;
-    &:hover {
-      background: #bed62f;
-    }
-  }
-  .btn-search {
-    position: relative;
-    font-size: 0;
-    line-height: 0;
-    &:hover:after {
-      background: url(../images/ico-01-white.png) no-repeat;
-    }
-    &:after {
-      content: '';
-      width: 15px;
-      height: 15px;
-      background: url(../images/ico-01.png) no-repeat;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: -8px 0 0 -8px;
-      -webkit-transition: all .3s;
-      -o-transition: all .3s;
+    .fa {
+      margin-right: 5px;
       transition: all .3s;
+    }
+    &:hover {
     }
   }
 }

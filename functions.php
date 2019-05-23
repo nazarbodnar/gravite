@@ -35,6 +35,8 @@ function my_assets() {
 	//	Vendor styles
 	wp_enqueue_style( 'id-vendor-styles', get_template_directory_uri() . '/styles/vendor.min.css', '1.0' );
 	//Custom styles
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/development/css/font-awesome-4.7.0/css/font-awesome.min.css', '1.0' );
+
 	wp_enqueue_style( 'id-styles', get_template_directory_uri() . '/styles/main.min.css', '1.0' );
 
 	//jQuery minified

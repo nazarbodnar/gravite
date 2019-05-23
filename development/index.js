@@ -2,8 +2,7 @@ $(document).ready(function () {
     $('.bg-img').each(function() {
         $(this).css('background-image', 'url(' + $(this).find('> img').attr('src') + ')').find('> img').hide();
     });
-    $('<a href="#" class="open-menu"><span></span>Open Menu</a>').appendTo('#header');
-    $('<span class="fader"/>').appendTo('#header');
+
     $('.open-menu').click(function(){
         $('body').toggleClass('menu-opened');
         return false;

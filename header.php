@@ -43,7 +43,7 @@ global $webshowcase;
         </nav>
         <ul class="top-nav">
             <li class="language">
-                <a class="btn-lang" href="#">En</a>
+                <a class="btn-lang" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>En</a>
                 <ul class="lang-drop">
                     <li><a href="#">Uk</a></li>
                     <li><a href="#">De</a></li>

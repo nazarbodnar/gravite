@@ -59,6 +59,13 @@ input:focus, textarea:focus, button:focus {
   background-color: $clr_white;
 }
 
+h2 {
+  font-size: 60px;
+  line-height: 64px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
 
 section {
   padding: 50px 0;
@@ -218,6 +225,12 @@ img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"], a[h
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.small-container {
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0 15px;
 }
