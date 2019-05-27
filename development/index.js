@@ -17,13 +17,13 @@ $(document).ready(function () {
         $(this).parent('li').toggleClass('opened');
         return false;
     }); /*dropdown-language*/
-});
 
-$(window).on('scroll', function(){
-    if ($(window).scrollTop() >= $( window ).height()) {
-        $('#header').addClass('fixed-header');
-    }
-    else {
-        $('#header').removeClass('fixed-header');
-    }
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        loop: true
+    });
 });

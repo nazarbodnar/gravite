@@ -15,7 +15,7 @@ global $webshowcase;
 get_header(); ?>
 
 <main id="main">
-	<div class="visual">
+	<div class="visual home">
 		<div class="container">
 			<div class="cell">
 				<div class="visual-text">
@@ -48,7 +48,7 @@ get_header(); ?>
 			</ul>
 		</div>
 	</div>
-	<div class="how-it-works">
+	<div class="how-it-works processes">
 		<div class="small-container">
 			<div class="heading">
 				<h2>How Gravite works for you?</h2>
@@ -78,6 +78,40 @@ get_header(); ?>
 				</li>
 
 			</ul>
+		</div>
+	</div>
+	<div class="team">
+		<div class="container">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="team-item">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="">
+							</div>
+							<div class="slide-text">
+								<p>Content should be a journey. It should hit users at all the stages: awareness, consideration, and decision. If your content doesn’t continue to inform and be relevant, users will get turned off. A pipeline is only as good as the quality and readiness of leads.</p>
+								<span class="name">Erick Jeunemaitre</span>
+								<span class="position">CoFounder Gravite</span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="team-item">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="">
+							</div>
+							<div class="slide-text">
+								<p>Content should be a journey. It should hit users at all the stages: awareness, consideration, and decision. If your content doesn’t continue to inform and be relevant, users will get turned off. A pipeline is only as good as the quality and readiness of leads.</p>
+								<span class="name">Erick Jeunemaitre</span>
+								<span class="position">CoFounder Gravite</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</div>
 	</div>
 	<div class="need-help">

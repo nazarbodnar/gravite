@@ -29,26 +29,26 @@ global $webshowcase;
 
 <body <?php body_class( $class ); ?>>
     <header id="header">
-       <div class="container clearfix">
+     <div class="container clearfix">
         <span class="logo"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/Logotype-01.svg" alt=""></a></span>
-         <ul class="top-nav">
-        <li class="language">
-            <a class="btn-lang" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>En</a>
-            <ul class="lang-drop">
-                <li><a href="#">Uk</a></li>
-                <li><a href="#">De</a></li>
-            </ul>
-        </li>
+        <ul class="top-nav">
+            <li class="language">
+                <a class="btn-lang" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>En</a>
+                <ul class="lang-drop">
+                    <li><a href="#">Uk</a></li>
+                    <li><a href="#">De</a></li>
                 </ul>
-                <nav class="main-nav">
-        <ul class="main-nav-list">
-            <li class="main-nav-item"><a class="btn-scroll" href=".visual">Home</a></li>
-            <li class="main-nav-item"><a class="btn-scroll" href=".our-service">Services</a></li>
-            <li class="main-nav-item"><a class="btn-scroll" href=".about-us">Processes</a></li>
-            <li class="main-nav-item"><a class="btn-scroll" href=".customers">Team</a></li>
-            <li class="main-nav-item"><a class="btn-scroll" href=".contact-us">Contacts</a></li>
+            </li>
         </ul>
-                </nav>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li class="main-nav-item"><a class="btn-scroll" href=".home">Home</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".our-services">Services</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".processes">Processes</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".team">Team</a></li>
+                <li class="main-nav-item"><a class="btn-scroll" href=".contact-us">Contacts</a></li>
+            </ul>
+        </nav>
     </div>
     <a href="#" class="open-menu"><span></span>Open Menu</a>
     <span class="fader"></span>
