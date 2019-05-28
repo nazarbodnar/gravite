@@ -20,12 +20,12 @@
 
 .visual-text {
   color: $clr_white;
-  max-width: 790px;
+  max-width: 820px;
   font: 18px/22px 'Montserrat',sans-serif;
   h1 {
     font-size: 60px;
     line-height: 70px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-weight: 700;
   }
   p {
@@ -97,7 +97,7 @@
     padding: 0 40px;
     h2{
       color: $clr_blue;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
   }
 }
@@ -220,7 +220,7 @@
   background-size: cover;
   background-position: 100% 0;
   h2 {
-    margin-bottom: 38px;
+    margin-bottom: 15px;
     color: $clr_white;
   }
   .text-box {
@@ -258,6 +258,17 @@
       line-height: 40px;
       letter-spacing: 0;
       padding-left: 50px;
+      position: relative;
+      &:before {
+        position: absolute;
+        font-family: 'Montserrat';
+        content: '“';
+        top: 84px;
+        left: 0;
+        font-size: 200px;
+        color: $clr_blue;
+        opacity: .2;
+      }
       p {
         margin-bottom: 40px;
       }
@@ -322,6 +333,72 @@
   }
 }
 /* end-contact-us */
+
+.counter-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  .counter-item {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+    width: 25%;
+    text-align: center;
+    color: $clr_blue;
+    position: relative;
+    &+.counter-item {
+      &:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: $clr_blue;
+      }
+      
+    }
+  }
+}
+
+
+
+.technology {
+  padding: 50px 0;
+  h2{
+    color: $clr_blue;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  .technology-item {
+    position: relative;
+    display: inline-block;
+    min-height: 140px;
+    margin-bottom: 40px;
+    width: 25%;
+    text-align: center;
+    vertical-align: bottom;
+    .ico {
+      display: block;
+      img {
+        max-width: 70%;
+        height: auto;
+      }
+    }
+    .name {
+      font-family: "Montserrat Light";
+      font-size: 17px;
+    }
+  }
+}
 @media only screen and (max-width: 1380px) {
   .team {
     .swiper-container {

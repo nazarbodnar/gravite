@@ -140,6 +140,187 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+	<div class="counter">
+		<div class="container">
+			<ul class="counter-box">
+				<li class="counter-item">
+					<div class="box">
+						<span class="counter-string">540</span>
+					</div>
+					<div class="name">Lecture</div>
+				</li>
+				<li class="counter-item">
+					<div class="box">
+						<span class="counter-string">170</span>+
+					</div>
+					<div class="name">Courses</div>
+				</li>
+				<li class="counter-item">
+					<div class="box">
+						<span class="counter-string">6</span>
+					</div>
+					<div class="name">Locations</div>
+				</li>
+				<li class="counter-item">
+					<div class="box">
+						<span class="counter-string">93</span>%
+					</div>
+					<div class="name">Graduates</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="technology">
+		<div class="container">
+			<h2>Expertise covered</h2>
+			<ul class="technology-list">
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/2.png" alt="">
+					</span>
+					<span class="name">Android</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/4.png" alt="">
+					</span>
+					<span class="name">IOS</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/24.png" alt="">
+					</span>
+					<span class="name">Xamarin</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/3.png" alt="">
+					</span>
+					<span class="name">AngularJS</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/14.png" alt="">
+					</span>
+					<span class="name">Node.js</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/10.png" alt="">
+					</span>
+					<span class="name">MS.NET</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/13.png" alt="">
+					</span>
+					<span class="name">Magento</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/17.png" alt="">
+					</span>
+					<span class="name">Salesforce</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/23.png" alt="">
+					</span>
+					<span class="name">WordPress</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/5.png" alt="">
+					</span>
+					<span class="name">AWS</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/22.png" alt="">
+					</span>
+					<span class="name">Windows Server</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/9.png" alt="">
+					</span>
+					<span class="name">SQL</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/16.png" alt="">
+					</span>
+					<span class="name">ROR</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.png" alt="">
+					</span>
+					<span class="name">Python</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/15.png" alt="">
+					</span>
+					<span class="name">PHP</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/8.png" alt="">
+					</span>
+					<span class="name">C#</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/7.png" alt="">
+					</span>
+					<span class="name">C</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/12.png" alt="">
+					</span>
+					<span class="name">JavaScript</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/6.png" alt="">
+					</span>
+					<span class="name">C++</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/11.png" alt="">
+					</span>
+					<span class="name">Java</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/21.png" alt="">
+					</span>
+					<span class="name">UX/UI</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/20.png" alt="">
+					</span>
+					<span class="name">Unity</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/19.png" alt="">
+					</span>
+					<span class="name">Selenium</span>
+				</li>
+				<li class="technology-item">
+					<span class="ico">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/18.png" alt="">
+					</span>
+					<span class="name">SAP</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 </main>
 
 <?php get_footer(); ?>
