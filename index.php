@@ -19,14 +19,14 @@ get_header(); ?>
 		<div class="container">
 			<div class="cell">
 				<div class="visual-text">
-					<h1>We Are French-Ukrainian Software Development Company</h1>
-					<p>Our talented team of professionals operates under an effective system of internal quality management and communication</p>
-					<a class="project-btn" href="#"><span>Contact Us</span></a>
+					<h1 data-aos="fade-up"  data-aos-delay="400">We Are French-Ukrainian Software Development Company</h1>
+					<p data-aos="fade-up"  data-aos-delay="600">Our talented team of professionals operates under an effective system of internal quality management and communication</p>
+					<a  data-aos="fade-up"  data-aos-delay="800" class="project-btn" href="#"><span>Contact Us</span></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="our-services">
+	<div class="our-services" data-aos="fade-up"  data-aos-delay="400">
 		<div class="container">
 			<div class="heading">
 				<h2>Our Services</h2>
@@ -49,7 +49,7 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="how-it-works processes">
-		<div class="small-container">
+		<div class="small-container" data-aos="fade-up"  data-aos-delay="400">
 			<div class="heading">
 				<h2>How Gravite works for you?</h2>
 				<p>When you need a softwer development help in your business and you have no time for coding for your website, Gravite will take that job for you and will build a great looking website or app.</p>
@@ -115,7 +115,7 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="need-help">
-		<div class="container">
+		<div class="container" data-aos="fade-up"  data-aos-delay="400">
 			<h2>Need Help and Support?</h2>
 			<div class="text-box">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -124,7 +124,7 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="contact-us">
-		<div class="container">
+		<div class="container" data-aos="fade-up"  data-aos-delay="400">
 			<h2>Contact Us</h2>
 			<div class="address-box">
 				<strong>Headquarters</strong>
@@ -140,38 +140,32 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<div class="counter">
-		<div class="container">
+	<div id="counter" class="counter">
+		<div class="container" data-aos="fade-up"  data-aos-delay="400">
 			<ul class="counter-box">
 				<li class="counter-item">
 					<div class="box">
-						<span class="counter-string">540</span>
+						<span class="counter-string" data-count="540">0</span>
 					</div>
 					<div class="name">Lecture</div>
 				</li>
 				<li class="counter-item">
 					<div class="box">
-						<span class="counter-string">170</span>+
+						<span class="counter-string" data-count="170">0</span>+
 					</div>
 					<div class="name">Courses</div>
 				</li>
 				<li class="counter-item">
 					<div class="box">
-						<span class="counter-string">6</span>
+						<span class="counter-string" data-count="6">0</span>
 					</div>
 					<div class="name">Locations</div>
-				</li>
-				<li class="counter-item">
-					<div class="box">
-						<span class="counter-string">93</span>%
-					</div>
-					<div class="name">Graduates</div>
 				</li>
 			</ul>
 		</div>
 	</div>
 	<div class="technology">
-		<div class="container">
+		<div class="container" data-aos="fade-up"  data-aos-delay="400">
 			<h2>Expertise covered</h2>
 			<ul class="technology-list">
 				<li class="technology-item">
@@ -319,6 +313,40 @@ get_header(); ?>
 					<span class="name">SAP</span>
 				</li>
 			</ul>
+		</div>
+	</div>
+	<div class="testimonial">
+		<div class="container">
+			<h2>Our Students Say</h2>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="testimonial-item">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="">
+							</div>
+							<div class="slide-text">
+								<p>Content should be a journey. It should hit users at all the stages: awareness, consideration, and decision. If your content doesn’t continue to inform and be relevant, users will get turned off. A pipeline is only as good as the quality and readiness of leads.</p>
+								<span class="name">Erick Jeunemaitre</span>
+								<span class="position">CoFounder Gravite</span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="testimonial-item">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="">
+							</div>
+							<div class="slide-text">
+								<p>Content should be a journey. It should hit users at all the stages: awareness, consideration, and decision. If your content doesn’t continue to inform and be relevant, users will get turned off. A pipeline is only as good as the quality and readiness of leads.</p>
+								<span class="name">Erick Jeunemaitre</span>
+								<span class="position">CoFounder Gravite</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				 <div class="swiper-pagination"></div>
+			</div>
 		</div>
 	</div>
 </main>

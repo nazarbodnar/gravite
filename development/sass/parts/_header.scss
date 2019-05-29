@@ -28,7 +28,7 @@
 #header {
   background: $clr_blue;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 0 15px;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -167,6 +167,14 @@
     padding: 25px 13px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  #header {
+    position: fixed;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .nav-toggle {
     right: 10px;
@@ -266,7 +274,7 @@
     padding: 20px 15px;
     position: fixed;
     text-align: center;
-    top: -100%;
+    top: -120%;
     left: 0;
     right: 0;
     -webkit-transition: all .3s;
@@ -296,6 +304,7 @@
 
   body.menu-opened {
     overflow: hidden;
+    position: fixed;
   }
 
   .menu-opened {

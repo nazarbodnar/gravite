@@ -333,6 +333,9 @@
   }
 }
 /* end-contact-us */
+.counter {
+  padding: 50px 0;
+}
 
 .counter-box {
   display: -webkit-flex;
@@ -346,12 +349,17 @@
     font-size: 24px;
     line-height: 28px;
     font-family: 'Montserrat';
-    width: 25%;
+    width: 33%;
     text-align: center;
     color: $clr_blue;
     position: relative;
+    .counter-string {
+      font-size: 34px;
+      font-weight: 700;
+    }
     &+.counter-item {
-      &:before {
+      border-left: 1px solid #000;
+      /* &:before {
         position: absolute;
         content: '';
         left: 0;
@@ -359,7 +367,7 @@
         bottom: 0;
         width: 1px;
         background: $clr_blue;
-      }
+      } */
       
     }
   }
@@ -399,6 +407,46 @@
     }
   }
 }
+
+.testimonial {
+  padding: 50px 0;
+  h2 {
+    text-align: center;
+    color: $clr_blue;
+    margin-bottom: 25px;
+  }
+  .swiper-wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+.testimonial-item {
+  .img {
+    height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+    margin-right: 50px;
+  }
+  .slide-text {
+    overflow: hidden;
+    padding-top: 15px;
+    p{
+      margin-bottom: 30px;
+    }
+    .name {
+      display: block;
+      font-weight: 700;
+    }
+    .position {
+      display: block;
+    }
+  }
+}
+
 @media only screen and (max-width: 1380px) {
   .team {
     .swiper-container {
@@ -477,6 +525,12 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  main {
+    padding-top: 72px;
+  }
+}
+
 @media only screen and (max-width: 767px) { 
   h2 {
     font-size: 48px;
@@ -507,6 +561,9 @@
 
   .how-it-works {
     padding: 100px 0;
+    .heading {
+      padding: 0;
+    }
   }
 
   .how-it-works-list {
@@ -538,6 +595,26 @@
       }
     }
   }
+  .counter-box {
+    .counter-item {
+      font-size: 16px;
+      line-height: 22px;
+      .counter-string {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .testimonial-item {
+    .img {
+      float: none;
+      margin: 0 auto 25px;
+    }
+    .slide-text {
+      text-align: center;
+    }
+  }
+  
 }
 
 
@@ -576,6 +653,13 @@
       .img{
         width: 200px;
       }
+    }
+  }
+
+  .technology-list {
+    .technology-item {
+      width: 50%;
+      min-height: 80px;
     }
   }
 }
