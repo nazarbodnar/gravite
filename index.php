@@ -123,8 +123,8 @@ get_header(); ?>
 			<a class="project-btn" href="#"><span>Contact Us</span></a>
 		</div>
 	</div>
-	<div class="contact-us">
-		<div class="container" data-aos="fade-up"  data-aos-delay="400">
+	<div class="contact-us" data-aos="fade-up"  data-aos-delay="400">
+		<div class="container">
 			<h2>Contact Us</h2>
 			<div class="address-box">
 				<strong>Headquarters</strong>
@@ -139,6 +139,7 @@ get_header(); ?>
 				<span>info@gravite.com</span>
 			</div>
 		</div>
+		<div class="map bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt=""></div>
 	</div>
 	<div id="counter" class="counter">
 		<div class="container" data-aos="fade-up"  data-aos-delay="400">

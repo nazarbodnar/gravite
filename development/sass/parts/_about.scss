@@ -308,8 +308,9 @@
 
 /* contact-us */
 .contact-us {
-  padding: 150px 0 50px;
+  margin: 150px 0 50px;
   background: $clr_white;
+  position: relative;
   h2{
     color: $clr_blue;
     margin-bottom: 70px;
@@ -330,6 +331,14 @@
     p {
       color: $clr_gray;
     }
+  }
+  .map {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
   }
 }
 /* end-contact-us */
@@ -523,6 +532,10 @@
       padding: 0 20px;
     }
   }
+
+  .contact-us h2 {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -612,6 +625,23 @@
     }
     .slide-text {
       text-align: center;
+    }
+  }
+
+  .contact-us {
+    margin: 50px 0;
+    h2 {
+      margin-bottom: 20px;
+    }
+    .map {
+      max-width: calc(100vw - 30px);
+      margin: 0 auto;
+      height: 300px;
+      position: relative;
+      left: auto;
+      top: auto;
+      right: auto;
+      bottom: auto;
     }
   }
   
