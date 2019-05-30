@@ -26,13 +26,13 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<div class="our-services" data-aos="fade-up"  data-aos-delay="400">
+	<div class="our-services">
 		<div class="container">
-			<div class="heading">
+			<div class="heading" data-aos="fade-up"  data-aos-delay="400">
 				<h2>Our Services</h2>
 				<p>We have been involved in the design and development of dozens of commercial products rfom around the worls. We have an expertise in many spheres of software development.</p>
 			</div>
-			<ul class="services-list">
+			<ul class="services-list" data-aos="fade-up"  data-aos-delay="600">
 				<li class="services-item">
 					<h3>IT Consulting</h3>
 					<p>Our IT Consulting Services are the first step toward transforming your enterprise IT and improving your business efficiency.</p>
@@ -49,12 +49,12 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="how-it-works processes">
-		<div class="small-container" data-aos="fade-up"  data-aos-delay="400">
+		<div class="small-container">
 			<div class="heading">
-				<h2>How Gravite works for you?</h2>
-				<p>When you need a softwer development help in your business and you have no time for coding for your website, Gravite will take that job for you and will build a great looking website or app.</p>
+				<h2 data-aos="fade-up"  data-aos-delay="400">How Gravite works for you?</h2>
+				<p data-aos="fade-up"  data-aos-delay="600">When you need a softwer development help in your business and you have no time for coding for your website, Gravite will take that job for you and will build a great looking website or app.</p>
 			</div>
-			<ul class="how-it-works-list">
+			<ul class="how-it-works-list" data-aos="fade-up"  data-aos-delay="800">
 				<li class="how-it-works-item">
 					<div class="img">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/Icon_1.svg" alt="">
@@ -80,7 +80,7 @@ get_header(); ?>
 			</ul>
 		</div>
 	</div>
-	<div class="team">
+	<div class="team" data-aos="fade-up"  data-aos-delay="400">
 		<div class="container">
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
@@ -115,12 +115,12 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="need-help">
-		<div class="container" data-aos="fade-up"  data-aos-delay="400">
-			<h2>Need Help and Support?</h2>
+		<div class="container">
+			<h2 data-aos="fade-up"  data-aos-delay="400">Need Help and Support?</h2>
 			<div class="text-box">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p data-aos="fade-up"  data-aos-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 			</div>
-			<a class="project-btn" href="#"><span>Contact Us</span></a>
+			<a class="project-btn" href="#" data-aos="fade-up"  data-aos-delay="800"><span>Contact Us</span></a>
 		</div>
 	</div>
 	<div class="contact-us" data-aos="fade-up"  data-aos-delay="400">
@@ -167,8 +167,8 @@ get_header(); ?>
 	</div>
 	<div class="technology">
 		<div class="container" data-aos="fade-up"  data-aos-delay="400">
-			<h2>Expertise covered</h2>
-			<ul class="technology-list">
+			<h2 data-aos="fade-up"  data-aos-delay="400">Expertise covered</h2>
+			<ul class="technology-list" data-aos="fade-up"  data-aos-delay="600">
 				<li class="technology-item">
 					<span class="ico">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/2.png" alt="">
@@ -241,7 +241,7 @@ get_header(); ?>
 					</span>
 					<span class="name">SQL</span>
 				</li>
-				<li class="technology-item">
+				<!-- <li class="technology-item">
 					<span class="ico">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/16.png" alt="">
 					</span>
@@ -312,14 +312,14 @@ get_header(); ?>
 						<img src="<?php echo get_template_directory_uri(); ?>/images/18.png" alt="">
 					</span>
 					<span class="name">SAP</span>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
 	<div class="testimonial">
 		<div class="container">
-			<h2>Our Students Say</h2>
-			<div class="swiper-container">
+			<h2 data-aos="fade-up"  data-aos-delay="400">Our Students Say</h2>
+			<div class="swiper-container" data-aos="fade-up"  data-aos-delay="600">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="testimonial-item">

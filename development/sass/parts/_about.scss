@@ -3,6 +3,10 @@
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* cell */
@@ -219,6 +223,10 @@
   text-align: center;
   background-size: cover;
   background-position: 100% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   h2 {
     margin-bottom: 15px;
     color: $clr_white;
@@ -386,6 +394,7 @@
 
 .technology {
   padding: 50px 0;
+  background: #fafafa;
   h2{
     color: $clr_blue;
     text-align: center;
@@ -439,6 +448,7 @@
     background-size: cover;
     background-position: 50%;
     margin-right: 50px;
+    border: 1px solid #dbdbdb8f;
   }
   .slide-text {
     overflow: hidden;
