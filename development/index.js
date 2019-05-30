@@ -33,7 +33,8 @@ $(document).ready(function () {
     var testimonialSwiper = new Swiper('.testimonial .swiper-container', {
         slidesPerView: 1,
         loop: true,
-        pagination: '.swiper-pagination'
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
     });
 
 
