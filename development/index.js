@@ -23,11 +23,11 @@ $(document).ready(function () {
         return false;
     }); /*dropdown-language*/
 
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.team .swiper-container', {
         slidesPerView: 1,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        loop: true
+        loop: true,
     });
 
     var testimonialSwiper = new Swiper('.testimonial .swiper-container', {
